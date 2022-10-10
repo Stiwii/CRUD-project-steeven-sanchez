@@ -1,0 +1,47 @@
+.user:hover{
+    transform: scale(1);
+}
+.delete__alert,.delete__alert-text{
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(249, 0, 0);
+    
+}
+.delete__alert-text{
+    color: #0019f9;
+}
+.alert_signo{
+    color: black;
+}
+
+.btn__delete-alert{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.delete__btn-alert{
+width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #484e89;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: transform 150ms ease,box-shadow 150ms ease;
+}
+.delete__btn-alert:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 10px #0005;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+    /* color: red; */
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
