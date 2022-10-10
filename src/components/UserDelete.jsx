@@ -10,7 +10,8 @@ const UserDelete = ({showUser,setShowUser,deleteUserById}) => {
   }
   return (
     <div className='delete__div'>
-      
+      <h2 className='delete__alert'><span className='alert_signo'>¡</span> ALERT <span className='alert_signo'>!</span> </h2>
+      <h3 className='delete__alert-text'>Are you sure you want to delete this user? </h3>
       <article className='user'>
         <h2 className='user__name'>{`${showUser.first_name} ${showUser.last_name}`}</h2>
 
@@ -23,8 +24,6 @@ const UserDelete = ({showUser,setShowUser,deleteUserById}) => {
           {/* <li className='user__item'><span className='user__span'>Password </span>{showUser.password}</li> */}
         </ul>
       </article>
-      <h2 className='delete__alert'><span className='alert_signo'>¡</span> ALERT <span className='alert_signo'>!</span> </h2>
-      <h3 className='delete__alert-text'>Are you sure you want to delete this user? </h3>
       <footer className='btn__delete-alert'>
         <button className='delete__btn-alert'
         onClick={handleYes}
@@ -33,6 +32,8 @@ const UserDelete = ({showUser,setShowUser,deleteUserById}) => {
         onClick={() => setShowUser()}
         > <AiOutlineDislike /> NO</button>
       </footer>
+      
+      
       
     </div>
   )

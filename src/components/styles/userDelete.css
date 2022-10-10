@@ -7,11 +7,16 @@
     text-align: center;
     padding-top: 10px;
     color: rgb(249, 0, 0);
-    
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    box-shadow: 0 0 8px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .delete__alert-text{
-    color: #0019f9;
+    color: #283aff;
+    /* background-color: #ffffff; */
 }
+
 .alert_signo{
     color: black;
 }
